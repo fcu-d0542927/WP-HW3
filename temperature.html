@@ -1,0 +1,30 @@
+<!DOCTOR html>
+
+<html>
+	<head>
+		<meta charst = "utf-8">
+		<title>Celsius To Fahrenheit </title>
+		<script type ="text/javascript">
+		
+		var Celsius;
+		Celsius = window.prompt("Please enter Celsius degree");
+		var CelsiusNum;
+		CelsiusNum = parseInt(Celsius);
+		
+		var Fahrenheit;
+		Fahrenheit = CelsiusToFahrenheit(CelsiusNum);
+		
+		
+		document.writeln("<h1>The Celsius degree " + Celsius + "°C change to the Fahrenheit degree "+ Fahrenheit +"°F .</h1>");
+		
+		function CelsiusToFahrenheit( degree ){
+			return (degree *9 / 5 )+ 32;
+		}
+		
+		
+		
+		</script>
+		
+	</head><body></body>
+
+</html>
